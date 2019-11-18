@@ -31,6 +31,7 @@ struct ContentView: View {
                                 }
                                 self.newTodoItem = ""
                             }){
+                                
                                 Image(systemName: "plus.circle.fill")
                                     .imageScale(.large)
                             }
